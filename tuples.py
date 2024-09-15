@@ -21,3 +21,14 @@ def PointTuple(x,y,z):
 
 def VectorTuple(x,y,z):
 	return Tuples(x, y, z, 0)
+
+#create operations for your tuples
+def AddingTuple(x1,y1,z1,w1 , x2,y2,z2,w2):
+	return (x1+x2,y1+y2,z1+z2,w1+w2)
+
+def SubtractTuple(x1,y1,z1,w1 , x2,y2,z2,w2):
+	return (x1-x2,y1-y2,z1-z2,w1-w2)
+
+#create a function to check for equality among tuples
+def IsTupleEqual(x1,y1,z1,w1 , x2,y2,z2,w2):
+	return ((x1,y1,z1,w1) == (x2,y2,z2,w2))
